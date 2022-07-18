@@ -1,4 +1,268 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 45px;
+    font-weight: 900;
+    text-shadow: 1px 1px 1px black;
+}
+
+.flexible-content {
+    display: flex;
+
+}
+
+.top-section {
+    background-image: url('../images/donation-15.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+
+.text-area {
+    text-align: center;
+    padding: 100px 0;
+    margin: 0 25%;
+
+}
+
+p {
+    color: dimgray;
+    font-size: 1.3em;
+}
+
+#white {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#black {
+    color: black;
+
+}
+
+.text-area h4 {
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(tomato, red);
+    padding: 10px 50px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.amount {
+    text-align: center;
+}
+
+.fixed-amount input {
+    padding: 40px 30px;
+    color: dimgray;
+    background-color: whitesmoke;
+    font-size: larger;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+
+
+}
+
+.fixed-amount input:nth-child(2) {
+    border: 2px solid orangered;
+    padding: 38px 28px;
+    color: firebrick;
+    background-color: rgb(247, 220, 224);
+}
+
+.type-amount {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.type-amount input {
+    display: block;
+    border: 0px solid;
+    margin: auto;
+    font-size: larger;
+}
+
+.type-amount input:focus {
+    outline: none;
+}
+
+.plan-align {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.plan {
+    width: 30%;
+    height: 400px;
+    margin-left: 1.5%;
+    padding: 30px 15px 10px 10px;
+    border-radius: 5px;
+}
+
+.plan h4 {
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.plan p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+#food {
+    background-color: rgb(219, 246, 255);
+}
+
+#shelter {
+    background-color: rgb(255, 225, 230);
+}
+
+#education {
+    background-color: rgb(230, 255, 192);
+}
+
+
+.pay-method {
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+.left-title {
+    width: 60%;
+    height: 500px;
+    background-image: url('../images/jar-coin.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: right;
+    border-right: 5px solid salmon;
+
+
+}
+
+.left-title h2 {
+    color: white;
+    font-size: 1.3rem;
+    text-shadow: 2px 2px 2px black;
+    padding-top: 350px;
+    padding-right: 15px;
+}
+
+.right-form {
+    display: inline-block;
+    width: 40%;
+    height: 500px;
+    border: 2px solid black;
+    padding: 0 20px;
+    box-shadow: 5px 5px 3px darkgray;
+    
+}
+.right-form h5{
+    width: 100%;
+    background-image: linear-gradient(red,tomato);
+    padding: 20px 0px;
+    padding-left: 5px;
+    margin-bottom: 20px;
+    color: whitesmoke;
+    font-size: larger;
+    text-shadow: 1px 1px 1px black;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 4px darkgray;
+}
+
+.right-form input[type=text],input[type=email],input[type=number] {
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.right-form input[type=submit]{
+    width: 50%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 50%;
+    color: darkslategray;
+    border: 2px solid orangered;
+    background-color: antiquewhite;
+    
+}
+.right-form input[type=submit]:hover{
+    background-image: linear-gradient(red,orangered);
+    color: white;
+
+
+}
+.subscribe-area{
+    width: 50%;
+    height: 150px;
+    margin:0 auto;
+    background-color: lightyellow;
+}
+
+.subscribe-area form{
+    width: 100%;
+    /* margin: 60px auto; */
+    padding:60px 22%;
+    
+}
+.subscribe-area input[type=email]{
+    padding: 15px 40px;
+    height: 50px;
+    width: 40%;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    background-color: lightblue;
+    
+}
+.subscribe-area input[type=submit]{
+    padding: 15px 40px;
+    height: 50px;
+    width: 20%;
+    border-radius: 0px 5px 5px 0px;
+    background-image: linear-gradient(red,orangered);
+    border: none;
+    color: white;
+    font-size: 1.1em;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: black;
+}
+footer h4{
+    font-style: italic;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    color: orangered;
+}
+footer p{
+    font-size: 1em;
+    color: white;
+
+
 }

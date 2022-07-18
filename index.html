@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,92 +11,120 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Donation landing page</title>
 </head>
+
 <body>
-    <section>
-        <div>
+    <section class="top-section flexible-contant">
+        <div class="text-area" id="white">
             <h1>Let's Help Those Who Are More In Need</h1>
-            <p>The Smallest Act of Kindness is Worth More Than the Grandest Intention</p>
-            <a href="#" >Donate Now</a>
+            <h4>The Smallest Act of Kindness is Worth More Than the Grandest Intention.No one has ever become poor from
+                giving</h4>
+            <a href="#" class="link-button">Donate Now</a>
         </div>
     </section>
 
 
-    <section>
-        <div>
+    <section class="amount-area">
+        <div class="text-area" id="black">
             <h3>Donate Today</h3>
-            <p>It does not matter how much we donate; it matters whether the donation is meaningful. How to define meaningful? Let society and history judge.</p>
+            <p>It does not matter how much we donate; it matters whether the donation is meaningful. How to define
+                meaningful? Let society and history judge.</p>
         </div>
-        <div>
-            <input type="button" value="100tk" name="amount">
-            <input type="button" value="200tk" name="amount">
-            <input type="button" value="500tk" name="amount">
-            <input type="button" value="1000tk" name="amount">
-            <input type="button" value="5000tk" name="amount">
+        <div class="amount">
+            <div class="fixed-amount">
+                <input type="button" value="100tk" name="amount">
+                <input type="button" value="200tk" name="amount" selected>
+                <input type="button" value="500tk" name="amount">
+                <input type="button" value="1000tk" name="amount">
+                <input type="button" value="5000tk" name="amount">
+            </div>
+            <div class="type-amount">
+                <input type="text" placeholder="Other Amount (Taka)" name="amount">
+                <hr>
+                <a href="#" class="link-button">Donate Now</a>
+            </div>
         </div>
-        <div>
-            <input type="number" placeholder="Other Amount (Taka)" name="amount">
-            <a href="#" >Donate Now</a>
-        </div>
+
     </section>
 
 
     <section>
-        <div>
+        <div class="text-area">
             <h3>Our Donate Plan</h3>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione dolorum consectetur laboriosam accusamus.</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione dolorum consectetur laboriosam
+                accusamus.</p>
         </div>
-        <div>
-            <div>
-                <img src="">
-                <h4></h4>
-                <p></p>
+        <div class="flexible-content plan-align">
+            <div class="plan" id="food">
+                <img src="icons/food.png">
+                <h4>Food for a Family</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, delectus. Eius dolor voluptas
+                    mollitia magni laborum dolores error optio fugit?Lorem ipsum dolor sit amet.</p>
             </div>
-            <div>
-                <img src="">
-                <h4></h4>
-                <p></p>
+            <div class="plan" id="shelter">
+                <img src="icons/shelter.png">
+                <h4>Shelter for a Family</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nisi, nostrum omnis, quidem
+                    earum sit laboriosam minima dolore quos reiciendis repudiandae suscipit doloribus similique
+                    perferendis nam! Veritatis et recusandae nesciunt.</p>
             </div>
-            <div>
-                <img src="">
-                <h4></h4>
-                <p></p>
+            <div class="plan" id="education">
+                <img src="icons/Frame-1.png">
+                <h4>Education for a Child</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore alias temporibus optio magnam sint
+                    consectetur numquam fuga amet nam labore itaque, reiciendis neque sunt iste? Animi eum minima qui
+                    aperiam?</p>
             </div>
-        </div>
-    </section>
-    <section>
-        <div>
-            <h2>Giving is the greatest act of grace</h2>
-            <form action="" method="">
-                <label for="name">Your Full Name :</label><br>
-                <input type="text" name="name" id="name" placeholder="Enter Your Full  Name"><br>
-                <label for="">Your Email :</label><br>
-                <input type="email" name="email" id="email" placeholder="Enter Your email"><br>
-                <label for="amount">Amount To Give</label><br>
-                <input type="number" name="amount" id="amount" placeholder="Amount"><br>
-                <input type="radio" name="method" value="Paypal" id="paypal">
-                <label for="paypal">Paypal</label>
-                <input type="radio" name="method" value="Mobile Banking" id="mBanking">
-                <label for="mBanking">Mobile Banking</label>
-                <input type="radio" name="method" value="Credit Card" id="credit">
-                <label for="credit">Credit Card</label>
-            </form>
         </div>
     </section>
     <section>
-        <div>
+        <h3 class="text-area">Easy Steps To Donate</h3>
+        <div class="pay-method flexible-content">
+            <div class="left-title">
+                <h2 class="donation-title">Giving is the greatest act of grace</h2>
+    
+            </div>
+            <div class="right-form">
+                <form action="" method="">
+                    <h5>Donate Here</h5>
+                    <label for="name">Your Full Name :</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Full  Name"><br>
+                    <label for="">Your Email :</label><br>
+                    <input type="email" name="email" id="email" placeholder="Enter Your email"><br>
+                    <label for="amount">Amount To Give</label><br>
+                    <input type="number" name="amount" id="amount" placeholder="Amount"><br>
+                    <input type="radio" name="method" value="Paypal" id="paypal">
+                    <label for="paypal">Paypal</label>
+                    <input type="radio" name="method" value="Mobile Banking" id="mBanking" checked>
+                    <label for="mBanking">Mobile Banking</label>
+                    <input type="radio" name="method" value="Credit Card" id="credit">
+                    <label for="credit">Credit Card</label><br><br><hr>
+                    <input type="submit" name="submit" value="Proceed To Pay">
+                </form>
+    
+            </div>
+        </div>
+        
+    </section>
+    <section>
+        <div class="text-area">
             <h3>Get My updates</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae vitae ab voluptates ipsa nobis, at saepe eius enim totam reprehende</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut repudiandae vitae ab voluptates ipsa nobis,
+                at saepe eius enim totam reprehende</p>
         </div>
+        
+    </section>
+    <section class="subscribe-area">
         <div>
-            <form>
-                <input type="email" name="email" id="email" placeholder="Email">
+            <form class="flexible-content">
+                <input type="email" name="email" id="email" placeholder="Your Email">
                 <input type="submit" value="Subscribe" name="submit">
             </form>
         </div>
     </section>
     <footer>
-        <h4>be Humble</h4>
+        <h4>Be Humble</h4>
         <p>Let's Give Hope to the People Need Most</p>
     </footer>
 </body>
+
 </html>
